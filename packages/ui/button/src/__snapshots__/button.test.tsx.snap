@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should match snapshot 1`] = `
+<DocumentFragment>
+  <button
+    class="button button--radius-sm button__filled--primary button--sm undefined"
+    type="submit"
+  >
+    Click me
+  </button>
+</DocumentFragment>
+`;

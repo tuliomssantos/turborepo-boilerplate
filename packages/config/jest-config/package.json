@@ -1,0 +1,10 @@
+{
+  "name": "jest-common",
+  "version": "0.0.0",
+  "private": true,
+  "files": [
+    "jest.common.js",
+    "jest.react.js",
+    "react-testing-library.tsx"
+  ]
+}
