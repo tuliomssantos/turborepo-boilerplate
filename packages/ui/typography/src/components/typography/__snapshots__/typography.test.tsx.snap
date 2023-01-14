@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Typography should render correctly 1`] = `
+<DocumentFragment>
+  <span
+    class="typography typography__text-md typography__medium"
+  >
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum veritatis soluta blanditiis ut, mollitia nisi ex architecto velit, expedita, iure illum quae perferendis? Illum beatae minima quo perferendis vero dolorum.
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Typography should render correctly with variant display-2xl 1`] = `
+<DocumentFragment>
+  <span
+    class="typography typography__display-2xl typography__medium"
+  >
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum veritatis soluta blanditiis ut, mollitia nisi ex architecto velit, expedita, iure illum quae perferendis? Illum beatae minima quo perferendis vero dolorum.
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Typography should render correctly with variant display-lg 1`] = `
+<DocumentFragment>
+  <span
+    class="typography typography__display-lg typography__medium"
+  >
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum veritatis soluta blanditiis ut, mollitia nisi ex architecto velit, expedita, iure illum quae perferendis? Illum beatae minima quo perferendis vero dolorum.
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Typography should render correctly with variant display-md 1`] = `
+<DocumentFragment>
+  <span
+    class="typography typography__display-md typography__medium"
+  >
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum veritatis soluta blanditiis ut, mollitia nisi ex architecto velit, expedita, iure illum quae perferendis? Illum beatae minima quo perferendis vero dolorum.
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Typography should render correctly with variant display-sm 1`] = `
+<DocumentFragment>
+  <span
+    class="typography typography__display-sm typography__medium"
+  >
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum veritatis soluta blanditiis ut, mollitia nisi ex architecto velit, expedita, iure illum quae perferendis? Illum beatae minima quo perferendis vero dolorum.
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Typography should render correctly with variant display-xl 1`] = `
+<DocumentFragment>
+  <span
+    class="typography typography__display-xl typography__medium"
+  >
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum veritatis soluta blanditiis ut, mollitia nisi ex architecto velit, expedita, iure illum quae perferendis? Illum beatae minima quo perferendis vero dolorum.
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Typography should render correctly with variant display-xs 1`] = `
+<DocumentFragment>
+  <span
+    class="typography typography__display-xs typography__medium"
+  >
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum veritatis soluta blanditiis ut, mollitia nisi ex architecto velit, expedita, iure illum quae perferendis? Illum beatae minima quo perferendis vero dolorum.
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Typography should render correctly with variant text-lg 1`] = `
+<DocumentFragment>
+  <span
+    class="typography typography__text-lg typography__medium"
+  >
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum veritatis soluta blanditiis ut, mollitia nisi ex architecto velit, expedita, iure illum quae perferendis? Illum beatae minima quo perferendis vero dolorum.
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Typography should render correctly with variant text-md 1`] = `
+<DocumentFragment>
+  <span
+    class="typography typography__text-md typography__medium"
+  >
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum veritatis soluta blanditiis ut, mollitia nisi ex architecto velit, expedita, iure illum quae perferendis? Illum beatae minima quo perferendis vero dolorum.
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Typography should render correctly with variant text-sm 1`] = `
+<DocumentFragment>
+  <span
+    class="typography typography__text-sm typography__medium"
+  >
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum veritatis soluta blanditiis ut, mollitia nisi ex architecto velit, expedita, iure illum quae perferendis? Illum beatae minima quo perferendis vero dolorum.
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Typography should render correctly with variant text-xl 1`] = `
+<DocumentFragment>
+  <span
+    class="typography typography__text-xl typography__medium"
+  >
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum veritatis soluta blanditiis ut, mollitia nisi ex architecto velit, expedita, iure illum quae perferendis? Illum beatae minima quo perferendis vero dolorum.
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Typography should render correctly with variant text-xs 1`] = `
+<DocumentFragment>
+  <span
+    class="typography typography__text-xs typography__medium"
+  >
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum veritatis soluta blanditiis ut, mollitia nisi ex architecto velit, expedita, iure illum quae perferendis? Illum beatae minima quo perferendis vero dolorum.
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Typography should render correctly with weight bold 1`] = `
+<DocumentFragment>
+  <span
+    class="typography typography__text-md typography__bold"
+  >
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum veritatis soluta blanditiis ut, mollitia nisi ex architecto velit, expedita, iure illum quae perferendis? Illum beatae minima quo perferendis vero dolorum.
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Typography should render correctly with weight medium 1`] = `
+<DocumentFragment>
+  <span
+    class="typography typography__text-md typography__medium"
+  >
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum veritatis soluta blanditiis ut, mollitia nisi ex architecto velit, expedita, iure illum quae perferendis? Illum beatae minima quo perferendis vero dolorum.
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Typography should render correctly with weight regular 1`] = `
+<DocumentFragment>
+  <span
+    class="typography typography__text-md typography__regular"
+  >
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum veritatis soluta blanditiis ut, mollitia nisi ex architecto velit, expedita, iure illum quae perferendis? Illum beatae minima quo perferendis vero dolorum.
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Typography should render correctly with weight semi-bold 1`] = `
+<DocumentFragment>
+  <span
+    class="typography typography__text-md typography__semi-bold"
+  >
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum veritatis soluta blanditiis ut, mollitia nisi ex architecto velit, expedita, iure illum quae perferendis? Illum beatae minima quo perferendis vero dolorum.
+  </span>
+</DocumentFragment>
+`;

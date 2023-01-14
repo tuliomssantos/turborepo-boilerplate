@@ -1,0 +1,142 @@
+@use 'sass:math';
+
+$min_width: 375px;
+
+$max_width: 1280px;
+
+@function strip-unit($value) {
+  @return math.div($value, ($value * 0 + 1));
+}
+
+/// Scale font-size from a minimum $min-font-size (at a $min-vw viewport) to a maximum of  $max-font-size (at a $max-vw viewport)
+/// @link https://css-tricks.com/snippets/css/fluid-typography/
+@mixin fluid-typography($min-vw, $max-vw, $min-font-size, $max-font-size) {
+  $u1: unit($min-vw);
+  $u2: unit($max-vw);
+  $u3: unit($min-font-size);
+  $u4: unit($max-font-size);
+
+  @if $u1 == $u2 and $u1 == $u3 and $u1 == $u4 {
+    & {
+      font-size: $min-font-size;
+      // line-height: calc($min-font-size * 1.024);
+
+
+      @media screen and (min-width: $min-vw) {
+        $fontSize: calc(
+          #{$min-font-size} + #{strip-unit($max-font-size - $min-font-size)} *
+            ((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)})
+        );
+
+        font-size: $fontSize;
+        // line-height: calc($fontSize * 1.024);
+      }
+
+      @media screen and (min-width: $max-vw) {
+        font-size: $max-font-size;
+        // line-height: calc($max-font-size * 1.024);
+      }
+    }
+  }
+}
+
+
+@mixin fontDimensions($fontSize, $lineHeight, $letterSpacing) {
+  font-size: $fontSize;
+  line-height: $lineHeight;
+  letter-spacing: $letterSpacing;
+}
+
+.typography {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+
+  &__display-2xl {
+    $max_font: 72px;
+    $min_font: calc($max_font * 0.6);
+
+    @include fluid-typography($min_width, $max_width, $min_font, $max_font);
+  }
+
+  &__display-xl {
+    $max_font: 60px;
+    $min_font: calc($max_font * 0.6);
+
+    @include fluid-typography($min_width, $max_width, $min_font, $max_font);
+  }
+
+  &__display-lg {
+    $max_font: 48px;
+    $min_font: calc($max_font * 0.6);
+
+    @include fluid-typography($min_width, $max_width, $min_font, $max_font);
+  }
+
+  &__display-md {
+    $max_font: 36px;
+    $min_font: calc($max_font * 0.8);
+
+    @include fluid-typography($min_width, $max_width, $min_font, $max_font);
+  }
+
+  &__display-sm {
+    $max_font: 30px;
+    $min_font: calc($max_font * 0.8);
+
+    @include fluid-typography($min_width, $max_width, $min_font, $max_font);
+  }
+
+  &__display-xs {
+    $max_font: 24px;
+    $min_font: calc($max_font * 0.8);
+
+    @include fluid-typography($min_width, $max_width, $min_font, $max_font);
+  }
+
+  &__text-xl {
+    $fontSize: 20px;
+    $lineHeight: 30px;
+    @include fontDimensions($fontSize, $lineHeight, calc($fontSize * -0.02));
+  }
+
+  &__text-lg {
+    $fontSize: 18px;
+    $lineHeight: 28px;
+    @include fontDimensions($fontSize, $lineHeight, calc($fontSize * -0.02));
+  }
+
+  &__text-md {
+    $fontSize: 16px;
+    $lineHeight: 24px;
+    @include fontDimensions($fontSize, $lineHeight, calc($fontSize * -0.02));
+  }
+
+  &__text-sm {
+    $fontSize: 14px;
+    $lineHeight: 20px;
+    @include fontDimensions($fontSize, $lineHeight, calc($fontSize * -0.02));
+  }
+
+  &__text-xs {
+    $fontSize: 12px;
+    $lineHeight: 18px;
+    @include fontDimensions($fontSize, $lineHeight, calc($fontSize * -0.02));
+  }
+
+  &__regular {
+    font-weight: 400;
+  }
+
+  &__medium {
+    font-weight: 500;
+  }
+
+  &__semi-bold {
+    font-weight: 600;
+  }
+
+  &__bold {
+    font-weight: 700;
+  }
+}

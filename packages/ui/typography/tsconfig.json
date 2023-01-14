@@ -1,0 +1,11 @@
+{
+  "extends": "tsconfig/tsconfig.react.json",
+  "include": ["src/", "styles.d.ts"],
+  "compilerOptions": {
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "target": "es5",
+    "moduleResolution": "node",
+    "jsx": "react-jsx",
+    "plugins": [{ "name": "typescript-plugin-css-modules" }]
+  }
+}
