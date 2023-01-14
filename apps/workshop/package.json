@@ -9,10 +9,11 @@
   },
   "dependencies": {
     "@acme/button": "*",
+    "@acme/input": "*",
     "@acme/overlay": "*",
+    "@acme/sidebar": "*",
     "@acme/theme": "*",
     "@acme/typography": "*",
-    "@acme/input": "*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
