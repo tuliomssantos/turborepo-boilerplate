@@ -1,0 +1,21 @@
+.spinner {
+  $size: var(--acme-spinner-size, 80px);
+
+  width: $size;
+  height: $size;
+
+  border: calc($size / 16) solid var(--acme-gray-500);
+  border-radius: 50%;
+  border-bottom-color: var(--acme-white);
+
+  animation: spinner 1s linear infinite;
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

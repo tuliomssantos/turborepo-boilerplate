@@ -10,6 +10,7 @@
   "dependencies": {
     "@acme/button": "*",
     "@acme/input": "*",
+    "@acme/loading": "*",
     "@acme/overlay": "*",
     "@acme/sidebar": "*",
     "@acme/svg": "*",
