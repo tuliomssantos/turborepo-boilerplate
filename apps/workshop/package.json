@@ -12,10 +12,12 @@
     "@acme/input": "*",
     "@acme/overlay": "*",
     "@acme/sidebar": "*",
+    "@acme/svg": "*",
     "@acme/theme": "*",
     "@acme/typography": "*",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "vite-plugin-svgr": "^2.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.7",
