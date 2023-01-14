@@ -1,0 +1,7 @@
+.sidebar {
+  position: relative;
+
+  background-color: var(--acme-sidebar-background-color, #fff);
+
+  box-shadow: 0 0 0 1px var(--acme-gray-300, #e2e8f0);
+}

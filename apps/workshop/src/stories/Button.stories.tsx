@@ -1,15 +1,14 @@
 import { Button } from '@acme/button'
 
-//create a story for the Button component
+import type { ComponentStory, ComponentMeta } from '@storybook/react'
+
 export default {
   title: 'Button',
   component: Button,
-}
+} as ComponentMeta<typeof Button>
 
-//create a template for how args map to rendering the Button component
-const Template = args => <Button {...args} />
+const Template: ComponentStory<typeof Button> = args => <Button {...args} />
 
-//re-use that template for creating different stories
 export const Primary = Template.bind({})
 Primary.args = {
   children: 'Button',

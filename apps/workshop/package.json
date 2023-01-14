@@ -9,6 +9,11 @@
   },
   "dependencies": {
     "@acme/button": "*",
+    "@acme/input": "*",
+    "@acme/overlay": "*",
+    "@acme/sidebar": "*",
+    "@acme/theme": "*",
+    "@acme/typography": "*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -27,6 +32,9 @@
     "autoprefixer": "^10.4.13",
     "babel-loader": "^8.3.0",
     "postcss": "^8.4.20",
+    "postcss-each": "^1.1.0",
+    "postcss-import": "^15.1.0",
+    "postcss-mixins": "^9.0.4",
     "typescript": "^4.9.3",
     "vite": "^4.0.0"
   },

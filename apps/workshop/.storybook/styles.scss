@@ -1,0 +1,5 @@
+@import '@acme/theme/src/index.scss';
+
+@include map-colors-to-theme('acme');
+
+@include create-layers-css-variables();

@@ -1,0 +1,16 @@
+$layers: (
+  'base': '10',
+  'menu': '20',
+  'overlay': '30',
+  'drawer:': '40',
+  'modal': '50',
+  'alwaysOnTop': '60',
+);
+
+@mixin create-layers-css-variables($map: $layers, $prefix: 'acme') {
+  :root {
+    @each $layer, $value in $map {
+      --#{$prefix}-layer-#{$layer}: #{$value};
+    }
+  }
+}

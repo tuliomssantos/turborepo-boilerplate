@@ -1,0 +1,17 @@
+.overlay {
+  background-color: #1d293985;
+
+  inset: 0;
+  justify-content: center;
+  overflow: hidden;
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  pointer-events: all;
+
+  z-index: var(--acme-layer-overlay, 40);
+}
