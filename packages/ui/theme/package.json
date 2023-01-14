@@ -1,0 +1,10 @@
+{
+  "name": "@acme/theme",
+  "version": "0.1.0",
+  "files": [
+    "src"
+  ],
+  "author": {
+    "name": "Túlio Santos"
+  }
+}
