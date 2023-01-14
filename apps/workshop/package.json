@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@acme/button": "*",
+    "@acme/overlay": "*",
     "@acme/theme": "*",
     "@acme/typography": "*",
     "@acme/input": "*",
