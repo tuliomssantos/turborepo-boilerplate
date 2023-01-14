@@ -7,7 +7,7 @@ $breakpoints: (
 );
 
 // create breakpoints css variables
-@mixin create-breakpoints-css-variables($map: $breakpoints, $prefix: 'meta') {
+@mixin create-breakpoints-css-variables($map: $breakpoints, $prefix: 'acme') {
   :root {
     @each $breakpoint, $value in $map {
       --#{$prefix}-breakpoint-#{$breakpoint}: #{$value};

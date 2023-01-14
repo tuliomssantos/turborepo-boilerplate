@@ -185,7 +185,7 @@ $theme-colors: (
   ),
 );
 
-@mixin map-colors-to-theme($prefix: 'meta', $theme-colors: $theme-colors) {
+@mixin map-colors-to-theme($prefix: 'acme', $theme-colors: $theme-colors) {
   :root {
     /**
      * Maps color palette values to css variables.

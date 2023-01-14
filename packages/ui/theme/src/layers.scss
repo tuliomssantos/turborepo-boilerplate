@@ -7,7 +7,7 @@ $layers: (
   'alwaysOnTop': '60',
 );
 
-@mixin create-layers-css-variables($map: $layers, $prefix: 'meta') {
+@mixin create-layers-css-variables($map: $layers, $prefix: 'acme') {
   :root {
     @each $layer, $value in $map {
       --#{$prefix}-layer-#{$layer}: #{$value};

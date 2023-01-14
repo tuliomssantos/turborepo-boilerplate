@@ -7,9 +7,9 @@
 
   align-items: center;
 
-  background-color: var(--meta-white, #ffffff);
+  background-color: var(--acme-white, #ffffff);
 
-  border: 1px solid var(--meta-gray-300, #d0d5dd);
+  border: 1px solid var(--acme-gray-300, #d0d5dd);
 
   border-radius: 4px;
 
@@ -30,11 +30,11 @@
   }
 
   &:disabled {
-    background-color: var(--meta-gray-50, #f9fafb);
+    background-color: var(--acme-gray-50, #f9fafb);
   }
 
   &--destructive {
-    border-color: var(--meta-error-300, #fda29b);
+    border-color: var(--acme-error-300, #fda29b);
   }
 }
 
@@ -43,7 +43,7 @@
   background-color: inherit;
   outline: none;
 
-  color: var(--meta-gray-900, #101828);
+  color: var(--acme-gray-900, #101828);
 
   font-size: 16px;
 
@@ -63,7 +63,7 @@
   }
 
   &::placeholder {
-    color: var(--meta-gray-500, #667085);
+    color: var(--acme-gray-500, #667085);
   }
 
   &::-ms-reveal {
