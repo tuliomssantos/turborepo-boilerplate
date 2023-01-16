@@ -10,10 +10,12 @@
   },
   "dependencies": {
     "@acme/button": "*",
+    "@acme/database": "*",
     "next": "^13.1.1",
     "obj-str": "^1.1.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "zod": "^3.20.2"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
