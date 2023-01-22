@@ -6,7 +6,8 @@
     "apps/*",
     "packages/config/*",
     "packages/ui/*",
-    "packages/database"
+    "packages/database",
+    "packages/auth"
   ],
   "scripts": {
     "build": "turbo run build",

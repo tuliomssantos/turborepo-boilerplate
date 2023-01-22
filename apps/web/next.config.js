@@ -4,7 +4,9 @@ module.exports = {
     appDir: true,
   },
   transpilePackages: [
+    '@acme/auth',
     '@acme/button',
-    '@acme/database'
+    '@acme/database',
+    '@acme/error'
   ],
 };

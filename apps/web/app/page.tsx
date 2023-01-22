@@ -1,10 +1,12 @@
-import { Button } from '@acme/button'
+import { AuthButton } from 'components/AuthButton'
+
+const CALLBACK_URL = process.env.NEXT_PUBLIC_CALLBACK_URL
 
 function Home() {
   return (
     <div>
       <h1>Acme Corp</h1>
-      <Button>Click me</Button>
+      <AuthButton callbackUrl={CALLBACK_URL as string} />
     </div>
   )
 }

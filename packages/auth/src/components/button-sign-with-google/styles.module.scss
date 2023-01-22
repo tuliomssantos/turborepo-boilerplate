@@ -1,0 +1,8 @@
+.button {
+  // width: 100%;
+
+  //add paddgin right to first child
+  & > *:first-child {
+    margin-right: 8px;
+  }
+}
