@@ -1,0 +1,28 @@
+{
+  "name": "mobile",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@acme/button": "*",
+    "expo": "~47.0.12",
+    "expo-status-bar": "~1.4.2",
+    "obj-str": "^1.1.0",
+    "react": "18.1.0",
+    "react-native": "0.70.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "autoprefixer": "^10.4.13",
+    "babel-plugin-react-native-classname-to-style": "^1.2.2",
+    "babel-plugin-react-native-platform-specific-extensions": "^1.1.1",
+    "postcss": "^8.4.21",
+    "react-native-postcss-transformer": "^1.2.4"
+  },
+  "private": true
+}
